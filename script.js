@@ -16,5 +16,7 @@ function calculate() {
     }
     catch(error) {
         display.value = "Error";
+        alert("Wrong input calculation")
+
     }
 }
